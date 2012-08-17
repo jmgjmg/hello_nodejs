@@ -11,5 +11,5 @@ handle["/dir"] = requestHandlers.dir;
 handle["/show"] = requestHandlers.show;
 
 server.start(router.route, handle);
-// Tutorial URL:
+// Tutorial URL
 // http://www.nodebeginner.org/
