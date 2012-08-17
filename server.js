@@ -1,6 +1,8 @@
 var http = require("http");
 var url = require("url");
 
+// ignored comment
+
 function startFunction(routeFunction, handle){
 	http.createServer(function(request, response) {
       var posteddata = "";
